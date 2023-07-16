@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>CRUD App</h1>
+    <h2>Create Registro</h2>
+    <form id="create-form">
+      <label for="create-name">Name:</label>
+      <input type="text" id="create-name" />
+      <br />
+      <label for="create-age">Age:</label>
+      <input type="number" id="create-age" />
+      <br />
+      <button type="submit">Create</button>
+    </form>
+    <h2>Update Registro</h2>
+    <form id="update-form">
+      <label for="update-index">Numero:</label>
+      <input type="number" id="update-index" />
+      <br />
+      <label for="update-name">Name:</label>
+      <input type="text" id="update-name" />
+      <br />
+      <label for="update-age">Age:</label>
+      <input type="number" id="update-age" />
+      <br />
+      <button type="submit">Update</button>
+    </form>
+    <h2>Delete Registro</h2>
+    <form id="delete-form">
+      <label for="delete-index">Numero:</label>
+      <input type="number" id="delete-index" />
+      <br />
+      <button type="submit">Delete</button>
+    </form>
+    <h2>Registro</h2>
+    <ul id="records-list"></ul>
+
+    <script src="scripts.js" ></script>
+  </body>
+</html>
